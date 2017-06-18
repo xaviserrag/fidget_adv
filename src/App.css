@@ -3,6 +3,7 @@
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: bold;
   color: #6b6b6b;
+  text-align: left;
 }
 
 .App .nav-bar {
@@ -27,6 +28,12 @@
 
 .App .header .figet-spinner-title {
   color: #232323;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+.App .header .figet-spinner-img {
+  margin-bottom: 15px;
 }
 
 .App .header-title {
@@ -46,12 +53,7 @@
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.App .header .grey-background {
-  width: 256px;
-  height: 161px;
-  background-color: lightgrey;
+  text-align: center;
 }
 
 .App .btn.btn-buy {
@@ -70,6 +72,9 @@
   font-weight: normal;
   color: #656565;
   font-size: 16px;
+  padding-right: 20px;
+  margin-bottom:20px;
+  height: 90px;
 }
 
 .App .title  {
@@ -82,11 +87,12 @@
 }
 
 .App .info .title  {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .App .info .description  {
-  line-height: 32px;
+  line-height: 27px;
   font-size: 14px;
   padding: 10px;
 }

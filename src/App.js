@@ -2,16 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  componentDidMount() {
-    // fetch('http://api.coindesk.com/v1/bpi/currentprice.json')
-    //   .then((response) => {
-    //     response.json().then((data) => {
-    //       console.log(data);
-    //       this.setState({usd: data.bpi.USD.rate})
-    //     });
-    //   });
-  }
-
   render() {
     return (
       <div className="App container">
@@ -39,15 +29,16 @@ class App extends Component {
                 <div className="row">
                 <div className="col-xs-12 col-md-4">
                   <div className="row figet-spinner-img">
-                    <div className="col-md-12 grey-background">
+                    <div className="col-md-12">
                       <div className="fidget-number">1</div>
+                      <img src="/fidget-spinner-1.png" alt="fidget spinner"/>
                     </div>
                   </div>
                   <div className="row figet-spinner-title">
-                    Fidget spinner
+                    Chillax Fidget Spinner
                   </div>
                   <div className="row description">
-                    This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best
+                    This newest version contains low friction bearings with round edges to ensure smooth rotation. Beautiful finishing and sleek design. Also available in White.
                   </div>
                   <div className="row buy-now">
                     <button className="btn btn-default btn-buy">Buy now!</button>
@@ -55,15 +46,16 @@ class App extends Component {
                 </div>
                 <div className="col-xs-12 col-md-4">
                   <div className="row figet-spinner-img">
-                    <div className="col-md-12 grey-background">
+                    <div className="col-md-12">
                       <div className="fidget-number">2</div>
+                      <img src="/fidget-spinner-2.png" alt="fidget spinner"/>
                     </div>
                   </div>
                   <div className="row figet-spinner-title">
-                    Fidget spinner
+                    ATESSON Fidget Spinner
                   </div>
                   <div className="row description">
-                    This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best
+                    Stainless steel with a high quality metal base, guaranteed to last. Incredible color and spin effect. Comes with a case!
                   </div>
                   <div className="row buy-now">
                     <button className="btn btn-default btn-buy">Buy now!</button>
@@ -71,15 +63,16 @@ class App extends Component {
                 </div>
                 <div className="col-xs-12 col-md-4">
                   <div className="row figet-spinner-img">
-                    <div className="col-md-12 grey-background">
+                    <div className="col-md-12">
                       <div className="fidget-number">3</div>
+                      <img src="/fidget-spinner-3.png" alt="fidget spinner"/>
                     </div>
                   </div>
                   <div className="row figet-spinner-title">
-                    Fidget spinner
+                    roma Anti-Anxiety Fidget Spinner
                   </div>
                   <div className="row description">
-                    This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best
+                    Subtle and smooth design. Made with impact-resistant plastic. Contains ceramic ball bearings that ensure one of the fastest spins
                   </div>
                   <div className="row buy-now">
                     <button className="btn btn-default btn-buy">Buy now!</button>
