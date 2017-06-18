@@ -13,64 +13,13 @@ class App extends Component {
   }
 
   render() {
-    console.log(this)
     return (
       <div className="App container">
           <div className="nav-bar row">
-            <div className="col-md-4">
-              <img className="img-responsive" src="/logo.png" width="1569" height="212"/>
+            <div className="col-md-4 col-xs-12">
+              <img className="img-responsive" src="/logo.png" width="202" height="48"/>
             </div>
-            <div className="col-md-offset-3 col-md-5 description">
-              {`1BTC = ${this.state && this.state.usd || ''}$`}
-            </div>
-          </div>
-          <div className="header row">
-            <div className="col-md-offset-1 col-md-10">
-              <div className="header-title row">
-                <span>The easiest way to get started with Bitcoin</span>
-              </div>
-              <div className="row">
-                <a className="btn btn-start" href="https://www.coinbase.com/join/59407ea86d5c5f00983508ba">Start Now</a>
-              </div>
-              <div className="row title">
-                <span>Sign up now and get $10 FREE</span>
-              </div>
-            </div>
-          </div>
-          <div className="info row">
-            <div className="col-md-4">
-              <div className="title row">
-                What is Bitcoin?
-              </div>
-              <div className="description row">
-                What is Bitcoin? Bitcoin is a digital currency that is created and held electronically. It is unregulated in most of the countries and decentralized (meaning there is no Central Bank, making transaction fees very low). Bitcoins can be used to buy things electronically, it’s like your everyday dollar, euro, or yen.
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="title row">
-                How does it work?
-              </div>
-              <div className="description row">
-                In order to get Bitcoins, you first need to have a digital wallet to store your money. This is where we come in. By clicking ‘Start Now’ you will be taken to Coinbase where you can sign up for your digital wallet. And since you just used our website to sign up, you immediately get $10 FREE as soon as you fund your account with at least $100!
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="title row">
-                What is Coinbase?
-              </div>
-              <div className="description row">
-                What is Coinbase?
-                Coinbase is the world’s most popular way to buy and sell digital currencies like Bitcoin, Ethereum, and Litecoin.
-                It’s secure, instant, and you maintain full control of your assets.
-
-                So what are you waiting for? Go ahead and get started!
-              </div>
-            </div>
-          </div>
-          <div className="footer row">
-            <div className="col-md-3 powered">
-            </div>
-            <div className="col-xs-6 col-md-offset-7 col-md-1">
+            <div className="col-xs-6 col-md-offset-6 col-md-1">
              <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fthefidgetguide.com&layout=button&size=small&mobile_iframe=true&appId=1754926664753974&width=59&height=20" width="59" height="20" style={{border:'none', overflow:'hidden'}} scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
             <div className="col-xs-6 col-md-1">
@@ -80,6 +29,73 @@ class App extends Component {
               >
                 Tweet
               </a>
+            </div>
+          </div>
+          <div className="header row">
+              <div className="col-md-12">
+                <div className="row header-title">
+                  THE TOP PICKS
+                </div>
+                <div className="row">
+                <div className="col-xs-12 col-md-4">
+                  <div className="row figet-spinner-img">
+                    <div className="col-md-12 grey-background">
+                      <div className="fidget-number">1</div>
+                    </div>
+                  </div>
+                  <div className="row figet-spinner-title">
+                    Fidget spinner
+                  </div>
+                  <div className="row description">
+                    This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best
+                  </div>
+                  <div className="row buy-now">
+                    <button className="btn btn-default btn-buy">Buy now!</button>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-md-4">
+                  <div className="row figet-spinner-img">
+                    <div className="col-md-12 grey-background">
+                      <div className="fidget-number">2</div>
+                    </div>
+                  </div>
+                  <div className="row figet-spinner-title">
+                    Fidget spinner
+                  </div>
+                  <div className="row description">
+                    This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best
+                  </div>
+                  <div className="row buy-now">
+                    <button className="btn btn-default btn-buy">Buy now!</button>
+                  </div>
+                </div>
+                <div className="col-xs-12 col-md-4">
+                  <div className="row figet-spinner-img">
+                    <div className="col-md-12 grey-background">
+                      <div className="fidget-number">3</div>
+                    </div>
+                  </div>
+                  <div className="row figet-spinner-title">
+                    Fidget spinner
+                  </div>
+                  <div className="row description">
+                    This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best This fidget spinner is the best
+                  </div>
+                  <div className="row buy-now">
+                    <button className="btn btn-default btn-buy">Buy now!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="info row">
+            <div className="col-md-12">
+              <div className="title row">
+                What are fidget spinners?
+              </div>
+              <div className="description row">
+                A fidget spinner is a type of toy, whose marketers claim it relieves stress. A basic fidget spinner consists of a bearing in the center of a design made from any of a variety of materials including brass, stainless steel, titanium, copper and plastic. The toy has been advertised as helping people who have trouble with focusing or fidgeting (such as those with ADHD, autism, or anxiety) by acting as a release mechanism for nervous energy or psychological stress. Experts were divided on this claim, with some supporting it while others disputed its scientific basis and argued the toy may actually be more distracting.
+              </div>
             </div>
           </div>
       </div>

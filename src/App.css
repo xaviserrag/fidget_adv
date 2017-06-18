@@ -1,13 +1,14 @@
 .App {
   text-align: center;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: bold
+  font-weight: bold;
+  color: #6b6b6b;
 }
 
 .App .nav-bar {
   height: 80px;
   margin-bottom: 50px;
-  border-bottom: 1px solid #d2d2d2;
+  border-bottom: 1px solid #adadad;
   background-color: #fcfcfc;
   line-height: 80px;
 }
@@ -24,21 +25,41 @@
   margin-bottom: 40px;
 }
 
-.App .header-title {
-  font-size: 34px;
-  color: #656565;
-  margin-bottom: 30px;
+.App .header .figet-spinner-title {
+  color: #232323;
 }
 
-.App .btn.btn-start {
-  background-color: #ffc024;
-  box-shadow: 0px 4px 0px #d89b1e;
-  color: #fff;
-  width: 205px;
-  height: 58px;
-  line-height: 42px;
-  font-size: 29px;
+.App .header-title {
+  font-size: 24px;
+  color: #3366ff;
   margin-bottom: 30px;
+  text-align: left;
+}
+
+.App .fidget-number {
+  width: 26px;
+  height: 26px;
+  background-color: #3366ff;
+  border-radius: 13px;
+  color: white;
+  line-height: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.App .header .grey-background {
+  width: 256px;
+  height: 161px;
+  background-color: lightgrey;
+}
+
+.App .btn.btn-buy {
+  background-color: #3366ff;
+  color: #fff;
+  width: 127px;
+  height: 40px;
+  font-size: 14px;
 }
 
 .App .info {
@@ -52,8 +73,12 @@
 }
 
 .App .title  {
-  color: #ffc024;
+  color: #3366f;
   font-size: 23px;
+}
+
+.App .info  {
+  border-top: 1px solid #adadad;
 }
 
 .App .info .title  {
@@ -64,38 +89,4 @@
   line-height: 32px;
   font-size: 14px;
   padding: 10px;
-}
-
-.App .footer  {
-  height: 80px;
-  border-top: 1px solid #d2d2d2;
-  line-height: 60px;
-  color: #d2d2d2;
-}
-
-.App .powered a {
-  color: #ccc;
-  text-decoration: none;
-  font-size: 10px;
-}
-
-.App .powered a:hover {
-  color: #ccc;
-  text-decoration: none;
-  font-size: 10px;
-
-}
-
-.App .powered a:active {
-  color: #ccc;
-  text-decoration: none;
-  font-size: 10px;
-
-}
-
-.App .powered a:visited {
-  color: #ccc;
-  text-decoration: none;
-  font-size: 10px;
-
 }
